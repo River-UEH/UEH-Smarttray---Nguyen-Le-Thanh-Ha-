@@ -33,14 +33,10 @@ MANUAL_IMAGE_SIZE = (640, 640)
 
 MANUAL_FOOD_BOXES = [
 
-    (23, 58, 173, 256),      # trên trái
-
-    (194, 60, 407, 270),     # trứng chiên
-
-    (474, 58, 608, 230),     # thịt kho
-
-    (23, 346, 222, 592),     # dưới trái
-
+    (23, 58, 173, 256),     
+    (194, 60, 407, 270),     
+    (474, 58, 608, 230),     
+    (23, 346, 222, 592),     
     (395, 335, 615, 575), 
 ]
 
@@ -549,7 +545,6 @@ class UEHSmartTrayApp(ctk.CTk):
             for idx, box in enumerate(MANUAL_FOOD_BOXES):
                 x1, y1, x2, y2 = box
 
-                # Giới hạn tọa độ trong ảnh
                 x1 = max(0, min(x1, fixed_w - 1))
                 y1 = max(0, min(y1, fixed_h - 1))
                 x2 = max(0, min(x2, fixed_w))
