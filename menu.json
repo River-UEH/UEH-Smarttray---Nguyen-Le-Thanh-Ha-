@@ -1,0 +1,56 @@
+{
+  "ca_hu_kho": {
+    "name": "Cá kho",
+    "price": 30000
+  },
+
+  "canh_chua_co_ca": {
+    "name": "Canh chua cá",
+    "price": 25000
+  },
+
+  "canh_chua_khong_ca": {
+    "name": "Canh chua không cá",
+    "price": 10000
+  },
+
+  "canh_rau": {
+    "name": "Canh rau",
+    "price": 7000
+  },
+
+  "com_trang": {
+    "name": "Cơm trắng",
+    "price": 10000
+  },
+
+  "dau_hu_sot_ca": {
+    "name": "Đậu hũ sốt cà",
+    "price": 25000
+  },
+
+  "rau_xao": {
+    "name": "Rau xào",
+    "price": 10000
+  },
+
+  "suon_nuong": {
+    "name": "Sườn nướng",
+    "price": 30000
+  },
+
+  "thit_kho_khong_trung": {
+    "name": "Thịt kho",
+    "price": 25000
+  },
+
+  "thit_kho_trung": {
+    "name": "Thịt kho trứng",
+    "price": 30000
+  },
+
+  "trung_chien": {
+    "name": "Trứng chiên",
+    "price": 25000
+  }
+}
